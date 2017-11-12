@@ -1,0 +1,466 @@
+@font-face {
+  font-family: 'ProductSans-Regular';
+  src: url('../fonts/ProductSans-Regular/ProductSans-Regular.eot?#iefix') format('embedded-opentype'),  
+  	   url('../fonts/ProductSans-Regular/ProductSans-Regular.otf')  format('opentype'),
+	   url('../fonts/ProductSans-Regular/ProductSans-Regular.woff') format('woff'), 
+	   url('../fonts/ProductSans-Regular/ProductSans-Regular.ttf')  format('truetype'), 
+	   url('../fonts/ProductSans-Regular/ProductSans-Regular.svg#FuturaStd-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProductSans-Bold';
+  src: url('../fonts/ProductSans-Bold/ProductSans-Bold.eot?#iefix') format('embedded-opentype'),  
+  	   url('../fonts/ProductSans-Bold/ProductSans-Bold.otf')  format('opentype'),
+	   url('../fonts/ProductSans-Bold/ProductSans-Bold.woff') format('woff'), 
+	   url('../fonts/ProductSans-Bold/ProductSans-Bold.ttf')  format('truetype'), 
+	   url('../fonts/ProductSans-Bold/ProductSans-Bold.svg#FuturaStd-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html{
+	font-size: 62.5%;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.6em;
+	color: #313131;
+	padding: 0 !important;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'ProductSans-Bold', sans-serif;
+}
+input, textarea{
+	font-family: 'Raleway', sans-serif;
+}
+button{
+	font-family: 'ProductSans-Regular', sans-serif;
+	border: none;
+}
+
+/* Header Area */
+header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 3rem 0 0;
+}
+.logo{
+	width: 14%;
+}
+.logo img{
+	width: 100%;
+}
+nav{}
+nav ul{
+	list-style: none;
+	margin: 1.5rem 0 0;
+}
+nav ul li{
+	float: left;
+}
+nav ul li button {
+    background: transparent;
+    color: #fff;
+    margin-left: 1.2rem;
+    padding: 0.7rem 2.2rem;
+}
+nav ul li button:hover{}
+nav ul li button.sign-in{
+	background: #00C4CC;
+	transition: background 0.5s ease-in-out;
+}
+nav ul li button.sign-in:hover{
+	background: #00B5BD;
+}
+
+/* Banner Area */
+.banner-area{
+	background: rgb(66,133,244, 0.5);
+	background: -moz-linear-gradient(top, rgba(0,38,75,0.9) 0%, rgba(0,38,75,0.9) 100%), url("../img/banner.jpg");
+	background: -webkit-linear-gradient(top, rgba(0,38,75,0.9) 0%,rgba(0,38,75,0.9) 100%), url("../img/banner.jpg");
+	background: linear-gradient(to bottom, rgba(0,38,75,0.9) 0%,rgba(0,38,75,0.9) 100%), url("../img/banner.jpg");
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00264B', endColorstr='#00264B',GradientType=0 ), url("../img/banner.jpg");
+	background-size: cover;
+	background-position: center center;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.banner-inner{
+	width: 80%;
+    margin: 22.5rem auto 15rem;
+}
+.banner-area h2,
+.banner-area p{
+	color: #fff;
+}
+.banner-area h2 {
+    font-size: 5rem;
+    margin: 0 0 0.45em;
+}
+.banner-area p {
+    font-size: 2.4rem;
+}
+
+.banner-area button {
+    color: #fff;
+    background: #276FF1;
+    padding: 1.7rem;
+    margin: 2.5rem 0 0;
+    text-align: center;
+    width: 32%;
+    font-size: 2.2rem;
+}
+
+.feature-area{
+	background: #F8FAFC;
+	padding: 10rem 0 9.5rem;
+}
+.single-feature{
+	text-align: center;
+	padding: 0 1.5rem;
+}
+.single-feature i{
+	font-size: 5rem;
+	color: #458DFF;
+}
+.single-feature h3{}
+.single-feature p {
+    font-size: 1.5rem;
+    line-height: 1.5em;
+}
+
+.how-to-area{
+	background: #EEF0F2;
+	padding: 7.2rem 0 9rem;
+}
+.how-to-area h2{
+	font-size: 4rem;
+	margin-bottom: 0.4em;
+}
+.how-to-area h2 strong{
+	color: #00B5BD;
+}
+.how-to-area p{
+	line-height: 1.5em;
+	margin: 0 0 1.1em;
+}
+.how-to-area .vimeo-video{
+	margin: 3rem 0 0;
+	width: 100%;
+	background: #B8B8B8;
+	width: 100%;
+}
+.how-to-area .vimeo-video iframe{
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+footer h4,
+footer p{
+	color: #F8FAFC;
+}
+footer h3{
+	margin: 0 0 1.8rem;
+	color: #19DDE5;
+}
+.upper-footer{
+	background: #2D4047;
+	padding: 9rem 0 9.5rem;
+}
+.upper-footer form{}
+.upper-footer form input,
+.upper-footer form textarea{
+    width: 100%;
+    background: #F8FAFC;
+    border: none;
+    font-size: 0.8em;
+    overflow: hidden;
+    display: block;
+    padding: 1rem;
+    margin: 0 0 1.1rem;
+}
+.upper-footer form input{}
+.upper-footer form textarea{}
+.upper-footer form button{
+    color: #F8FAFC;
+    background: #00B5BD;
+    padding: 0.6rem 1.8rem;
+}
+.contact-info{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.contact-map{
+	width: calc(50% - 1.5rem);
+	margin-right: 1.5rem;
+}
+.contact-map iframe{
+	width: 100%;
+}
+.contact-text{
+	width: calc(50% - 1.5rem);
+	margin-left: 1.5rem;
+}
+.contact-text a{
+	color: #19DDE5;
+}
+.contact-text{}
+.contact-text ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.contact-text ul li{
+	float: left;
+	margin-right: 1rem;
+	font-size: 2.5rem;
+}
+.contact-text ul li a{
+	color: #F8FAFC;
+}
+.lower-footer{
+	background: #1E3138;
+	color: #EEF0F2;
+	font-size: 1.4rem;
+	padding: 2rem 0 0.8rem;
+}
+
+
+
+/* Sign In Modal */
+
+.modal-dialog{
+	width: 490px;
+	margin: 80px auto 30px;
+}
+.modal-content{
+	border-radius: 0;
+	background: #F8FAFC;
+	text-align: center;
+	border-bottom: 0;
+	border: none;
+	position: relative;
+	overflow: hidden;
+}
+.sign-in-top{
+	padding: 50px 35px 38px;
+}
+.sign-up-top{
+	padding: 50px 35px 0;
+}
+.sign-up-bottom {
+    margin: 0 35px 38px;
+    box-shadow: 0 12px 12px 0 rgba(223,225,227,0.7);
+}
+.modal-content .close{
+	opacity: 1;
+	position: absolute;
+	top: 28px;
+	right: 28px;
+}
+.modal-content .close i{
+	color: #1E3138;
+}
+.modal-content h4{
+	font-size: 3.5rem;
+}
+.sign-in-top form {
+    padding-top: 25px;
+}
+.modal-content input{
+	display: block;
+	width: 100%;
+	background: #fff;
+	border: 1px solid #EEF0F2;
+	font-size: 1.5rem;
+	padding: 1.2rem;
+	margin-bottom: 1rem;
+}
+.sign-in-top form button {
+    font-family: "ProductSans-Regular", sans-serif;
+    color: #fff;
+    background: #00C4CC;
+    padding: 12px 0;
+    font-size: 22px;
+    width: 100%;
+    margin-top: 8px;
+}
+.sign-in-bottom{
+	background: #EEF0F2;
+	padding: 18px 35px 25px;
+}
+.sign-in-bottom p{}
+.sign-in-bottom button{
+	font-family: "ProductSans-Regular", sans-serif;
+    color: #fff;
+    background: #458DFF;
+    padding: 8px 20px;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+/* Sign Up Modal */
+
+.sign-up-top > p{
+	margin: 0 0 15px;
+}
+.sign-up-steps{
+	background: #EEF0F2;
+	overflow: hidden;
+	padding: 16px 0 15px;
+	margin: 0 0 25px;
+}
+.single-sign-up-step{
+	width: 33.33%;
+	float: left;
+	position: relative;
+	z-index: 0;
+}
+.single-sign-up-step:not(:last-child):before,
+.single-sign-up-step:not(:last-child):after{
+	content: "";
+	display: block;
+	position: absolute;
+	top: calc(50% - 4px);
+	width: 100%;
+	height: 4px;
+	background: #313131;
+	left: 50%;
+	z-index: -1;
+}
+.single-sign-up-step:not(:last-child):after{
+	background: #458DFF;
+	transform: scaleX(0);
+	transition: all 0.5s ease-in-out;
+	transform-origin: left center;
+}
+.single-sign-up-step.stick-full:after{
+	transform: scaleX(1);
+}
+.single-sign-up-step p:first-child{
+	font-family: 'ProductSans-Regular', sans-serif;
+	font-size: 1.5rem;
+    margin: 0 0 0.3rem;
+}
+.single-sign-up-step span{
+	display: block;
+	height: 15px;
+	width: 15px;
+	margin: 0 auto;
+	background: #313131;
+	border-radius: 100%;
+	transition: all 0.5s ease-in-out;
+}
+.single-sign-up-step.full span{
+	background: #458DFF;
+	
+}
+.single-sign-up-step p:last-child{
+	margin: 0.7rem 0 0;
+}
+.sign-up-step-1 .single-step-inner{
+	padding: 0 0 35px
+}
+.sign-up-role{
+	overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+.sign-up-role span {
+    height: 28px;
+    width: 28px;
+    text-align: center;
+    font-size: 14px;
+    position: absolute;
+    top: calc(50% - 30px);
+    border-radius: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #F8FAFC;
+    padding: 3px 0 0;
+    color: #777;
+}
+.sign-up-as{
+	width: calc(50% - 2px);
+	float: left;
+	background: #DFE1E3;
+	margin: 0 1px;
+	cursor: pointer;
+}
+.sign-up-as h2{
+	font-family: 'Raleway', sans-serif;
+	font-size: 2rem;
+}
+.sign-up-as h2 strong{
+	/*font-weight: 700;*/
+	font-size: 3rem;
+	font-family: 'ProductSans-Regular';
+	transition: all 0.15s ease-in-out;
+}
+.sign-up-as:hover h2 strong{
+	color: #00C4CC;
+}
+.single-step-inner h3{
+	margin: 15px 0;
+}
+.sign-up-step-1 h3{
+	margin: 0 0 30px;
+}
+.sign-up-bottom input{
+	width: 100%;
+}
+.sign-up-field{
+	overflow: hidden;
+}
+.sign-up-field input{
+	width: calc(50% - 7px);
+	float: left;
+}
+.sign-up-field input:nth-child(2n){
+	margin-left: 14px;
+}
+.sign-up-step-2 .single-step-inner,
+.sign-up-step-3 .single-step-inner{
+	padding: 0 20px 25px;
+	overflow: hidden;
+}
+/*.sign-up-step-2 .sign-up-field.buttons,
+.sign-up-step-3 .sign-up-field.buttons{
+	padding-bottom: 25px;
+}*/
+.sign-up-bottom button{
+	background: #00C4CC;
+	color: #fff;
+	padding: 8px 25px;
+}
+.sign-up-bottom button[type="submit"]{
+	background: #458DFF;
+}
+.sign-up-field.buttons{
+	padding: 8px 0 0;
+}
+.sign-up-bottom form{
+	position: relative;
+	overflow: hidden;
+}
+.single-step{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: none;
+}
+.single-step:first-child{
+	display: block;
+}
