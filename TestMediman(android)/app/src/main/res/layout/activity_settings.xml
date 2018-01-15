@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mediman.testmediman.SettingsActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="63dp"
+        android:src="@drawable/default_avatar"
+        android:id="@+id/setting_image"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/setting_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:text="Name"
+        android:textColor="@color/lbl_name"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/settings_search_btn"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"
+        android:text="Search"
+        android:onClick="gotoSearch"/>
+
+    <Button
+        android:id="@+id/setting_profile_btn"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/settings_search_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:text="Profile Info" />
+
+</RelativeLayout>

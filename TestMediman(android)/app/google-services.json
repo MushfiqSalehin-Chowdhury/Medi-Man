@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "745673003270",
+    "firebase_url": "https://test-mediman.firebaseio.com",
+    "project_id": "test-mediman",
+    "storage_bucket": "test-mediman.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745673003270:android:a14b7fdc6c684085",
+        "android_client_info": {
+          "package_name": "com.mediman.testmediman"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "745673003270-e2tamis6595325tkpe7ijphl9d202jhc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCr6RWIiSt1LJH3YJHp9zHpezzNr09WKJI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
